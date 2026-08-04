@@ -16,8 +16,8 @@ const experience = [
     date: "September 2024 – Present · New York, NY",
     details: [
       "Developed and improved the Multiview Scene Graph (MSG) model using the large-scale ScanNet++ image and video dataset for multiview visual perception and 3D scene understanding, improving MSG edge IoU by 7%.",
-      "Created a large-scale 3D dataset with more than 1,000 scenes for MSG training and evaluation.",
-      "Implemented a VQ-VAE-based quantized variant of DINO-WM, leveraging pretrained DINOv2 visual representations to enable zero-shot planning and manipulation, achieving a 4% performance improvement.",
+      "Created a large-scale training dataset containing more than 1,000 scenes from the ScanNet++ dataset for MSG model development and evaluation.",
+      "Implemented a VQ-VAE-based quantized variant of DINO-WM using pretrained DINOv2 visual representations for zero-shot planning and robotic manipulation, achieving a 4% performance improvement.",
       "Explored diffusion-based generative models using Diffusion Transformers (DiT) for structured scene representation and visual synthesis in 3D environments.",
     ],
     links: [
@@ -154,13 +154,14 @@ export default function Home() {
             <article className="researchCard">
               <p className="impact">~4% performance improvement</p>
               <h3>DINO-WM</h3>
-              <p>Implemented a VQ-VAE-based quantized variant of DINO-WM, leveraging pretrained DINOv2 visual representations to enable zero-shot planning and manipulation, achieving a 4% performance improvement.</p>
+              <p>Implemented a VQ-VAE-based quantized variant of DINO-WM using pretrained DINOv2 visual representations for zero-shot planning and robotic manipulation, achieving a 4% performance improvement.</p>
               <a href="https://dino-wm.github.io/" target="_blank" rel="noreferrer">Visit DINO-WM ↗</a>
             </article>
             <article className="researchCard">
               <p className="impact">~7% improvement in edge IoU</p>
               <h3>Multiview Scene Graph (MSG)</h3>
-              <p>Developed and improved the Multiview Scene Graph model using the large-scale ScanNet++ image and video dataset for multiview visual perception and 3D scene understanding, improving MSG edge IoU by 7%. Created a large-scale 3D dataset with more than 1,000 scenes for MSG training.</p>
+              <p>Developed and improved the Multiview Scene Graph model for multiview perception and 3D scene understanding using the large-scale ScanNet++ image and video dataset, improving MSG edge IoU by 7%.</p>
+              <p>Created a large-scale training dataset containing more than 1,000 scenes from the ScanNet++ dataset for MSG model development and evaluation.</p>
               <a href="https://ai4ce.github.io/MSG/" target="_blank" rel="noreferrer">Visit MSG ↗</a>
             </article>
           </div>
