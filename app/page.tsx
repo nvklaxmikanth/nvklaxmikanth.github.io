@@ -138,7 +138,8 @@ export default function Home() {
           <div className="actions">
             <a className="button primary" href="./Venkat_Kumar_Laxmi_Kanth_Resume.pdf" download>Download Résumé</a>
             <a className="button secondary" href="https://www.linkedin.com/in/nvklaxmikanth/" target="_blank" rel="noreferrer">LinkedIn</a>
-            <a className="button secondary" href="mailto:vn2263@nyu.edu">Contact</a>
+            <a className="button secondary" href="https://github.com/nvklaxmikanth" target="_blank" rel="noreferrer">GitHub</a>
+            <a className="button secondary" href="mailto:vn2263@nyu.edu">Email</a>
           </div>
         </div>
       </section>
