@@ -118,6 +118,7 @@ export default function Home() {
     <main>
       <header className="siteHeader">
         <nav className="container" aria-label="Main navigation">
+          <a href="#research">Research</a>
           <a href="#education">Education</a>
           <a href="#skills">Skills</a>
           <a href="#experience">Experience</a>
@@ -137,6 +138,30 @@ export default function Home() {
             <a className="button primary" href="./Venkat_Kumar_Laxmi_Kanth_Resume.pdf" download>Download Résumé</a>
             <a className="button secondary" href="https://www.linkedin.com/in/nvklaxmikanth/" target="_blank" rel="noreferrer">LinkedIn</a>
             <a className="button secondary" href="mailto:vn2263@nyu.edu">Contact</a>
+          </div>
+        </div>
+      </section>
+
+      <section className="section researchSection" id="research">
+        <div className="container">
+          <div className="researchHeading">
+            <p className="sectionLabel">Featured Research</p>
+            <h2>World Models &amp; 3D Scene Understanding</h2>
+            <p>Research at the intersection of embodied AI, robotic planning, and visual perception.</p>
+          </div>
+          <div className="researchGrid">
+            <article className="researchCard">
+              <p className="impact">~4% performance improvement</p>
+              <h3>DINO-WM</h3>
+              <p>Quantized world model using pretrained DINOv2 visual features and VQ-VAE latent representations for zero-shot planning and robotic manipulation.</p>
+              <a href="https://dino-wm.github.io/" target="_blank" rel="noreferrer">Visit DINO-WM ↗</a>
+            </article>
+            <article className="researchCard">
+              <p className="impact">~7% improvement in edge IoU</p>
+              <h3>Multiview Scene Graph (MSG)</h3>
+              <p>Transformer-based 3D scene understanding and multiview perception from RGB images, developed using the large-scale ScanNet++ dataset.</p>
+              <a href="https://ai4ce.github.io/MSG/" target="_blank" rel="noreferrer">Visit MSG ↗</a>
+            </article>
           </div>
         </div>
       </section>

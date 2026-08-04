@@ -23,6 +23,17 @@ a { color: inherit; }
 .section { padding: 78px 0; scroll-margin-top: 88px; }
 .shaded { background: var(--light-gray); border-top: 1px solid var(--border); border-bottom: 1px solid var(--border); }
 .section h2 { margin: 0 0 36px; text-align: center; font-size: 32px; }
+.researchSection { padding-top: 90px; border-top: 1px solid var(--border); }
+.researchHeading { max-width: 720px; margin: 0 auto 42px; text-align: center; }
+.researchHeading h2 { margin: 8px 0 12px; font-size: clamp(34px, 4vw, 48px); line-height: 1.15; }
+.researchHeading > p:last-child { margin: 0; color: var(--dark-gray); font-size: 17px; }
+.sectionLabel { margin: 0; text-transform: uppercase; letter-spacing: .14em; font-size: 12px; font-weight: 700; }
+.researchGrid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 24px; }
+.researchCard { min-height: 330px; padding: 34px; border: 2px solid var(--black); display: flex; flex-direction: column; }
+.researchCard .impact { margin: 0; font-size: 13px; font-weight: 700; text-transform: uppercase; letter-spacing: .06em; }
+.researchCard h3 { margin: auto 0 14px; font-size: 30px; line-height: 1.15; }
+.researchCard > p:not(.impact) { margin: 0 0 24px; color: var(--dark-gray); }
+.researchCard a { align-self: flex-start; font-weight: 700; text-underline-offset: 4px; }
 .twoColumns, .skillGrid, .projectGrid { display: grid; gap: 22px; }
 .twoColumns { grid-template-columns: repeat(2, 1fr); }
 .skillGrid { grid-template-columns: repeat(3, 1fr); }
@@ -57,7 +68,7 @@ footer { padding: 28px 20px; text-align: center; background: var(--black); color
   .profilePhoto { width: 220px; height: 270px; margin: 0 auto; }
   .heroContent { text-align: center; }
   .actions { justify-content: center; }
-  .twoColumns, .skillGrid, .projectGrid { grid-template-columns: 1fr; }
+  .twoColumns, .skillGrid, .projectGrid, .researchGrid { grid-template-columns: 1fr; }
   .section { padding: 58px 0; }
 }
 @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
