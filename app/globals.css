@@ -30,9 +30,8 @@ a { color: inherit; }
 .sectionLabel { margin: 0; text-transform: uppercase; letter-spacing: .14em; font-size: 12px; font-weight: 700; }
 .researchGrid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 24px; }
 .researchCard { min-height: 330px; padding: 34px; border: 2px solid var(--black); display: flex; flex-direction: column; }
-.researchCard .impact { margin: 0; font-size: 13px; font-weight: 700; text-transform: uppercase; letter-spacing: .06em; }
 .researchCard h3 { margin: auto 0 14px; font-size: 30px; line-height: 1.15; }
-.researchCard > p:not(.impact) { margin: 0 0 24px; color: var(--dark-gray); }
+.researchCard > p { margin: 0 0 24px; color: var(--dark-gray); }
 .researchCard a { align-self: flex-start; font-weight: 700; text-underline-offset: 4px; }
 .twoColumns, .skillGrid, .projectGrid { display: grid; gap: 22px; }
 .twoColumns { grid-template-columns: repeat(2, 1fr); }

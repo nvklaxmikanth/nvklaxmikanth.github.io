@@ -152,13 +152,11 @@ export default function Home() {
           </div>
           <div className="researchGrid">
             <article className="researchCard">
-              <p className="impact">~4% performance improvement</p>
               <h3>DINO-WM</h3>
               <p>Implemented a VQ-VAE-based quantized variant of DINO-WM using pretrained DINOv2 visual representations for zero-shot planning and robotic manipulation, achieving a 4% performance improvement.</p>
               <a href="https://dino-wm.github.io/" target="_blank" rel="noreferrer">Visit DINO-WM ↗</a>
             </article>
             <article className="researchCard">
-              <p className="impact">~7% improvement in edge IoU</p>
               <h3>Multiview Scene Graph (MSG)</h3>
               <p>Developed and improved the Multiview Scene Graph model for multiview perception and 3D scene understanding using the large-scale ScanNet++ image and video dataset, improving MSG edge IoU by 7%.</p>
               <p>Created a large-scale training dataset containing more than 1,000 scenes from the ScanNet++ dataset for MSG model development and evaluation.</p>
