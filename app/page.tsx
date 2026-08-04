@@ -133,7 +133,7 @@ export default function Home() {
         <img className="profilePhoto" src="./profile-venkat.png" alt="Portrait of Venkat Kumar Laxmi Kanth Nemala" />
         <div className="heroContent">
           <h1>Venkat Kumar Laxmi Kanth Nemala</h1>
-          <p>NYU Computer Engineering graduate and Research Assistant at the AI4CE Lab, working on world models, embodied AI, multimodal learning, and 3D scene understanding.</p>
+          <p>NYU Computer Engineering graduate and Research Assistant at the AI4CE Lab, working on world models, multimodal learning, robotic planning, and 3D scene understanding.</p>
           <p>I build machine-learning systems that connect advanced research with real-world robotics, autonomous systems, and document intelligence.</p>
           <div className="actions">
             <a className="button primary" href="./Venkat_Kumar_Laxmi_Kanth_Resume.pdf" download>Download Résumé</a>
@@ -148,7 +148,7 @@ export default function Home() {
           <div className="researchHeading">
             <p className="sectionLabel">Featured Research</p>
             <h2>World Models &amp; 3D Scene Understanding</h2>
-            <p>Research at the intersection of embodied AI, robotic planning, and visual perception.</p>
+            <p>Research at the intersection of world models, robotic planning, and visual perception.</p>
           </div>
           <div className="researchGrid">
             <article className="researchCard">
