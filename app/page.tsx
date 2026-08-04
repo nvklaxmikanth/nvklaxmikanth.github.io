@@ -26,7 +26,7 @@ const experience = [
     ],
   },
   {
-    role: "Teaching Assistant — DS-GA 1008 Deep Learning",
+    role: "Teaching Assistant | DS-GA 1008 Deep Learning",
     company: "New York University · Prof. Yann LeCun",
     date: "January 2025 – May 2025 · New York, NY",
     details: [
@@ -36,7 +36,7 @@ const experience = [
     links: [],
   },
   {
-    role: "Section Leader — DS-GA 1011 Natural Language Processing",
+    role: "Section Leader | DS-GA 1011 Natural Language Processing",
     company: "New York University",
     date: "September 2024 – December 2024 · New York, NY",
     details: [
