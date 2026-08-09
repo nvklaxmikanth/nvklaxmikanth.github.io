@@ -17,7 +17,6 @@ export const metadata: Metadata = {
     title: "Venkat Kumar Laxmi Kanth Nemala — World Models Researcher",
     description: "NYU Computer Engineering graduate and AI4CE researcher working on world models, robotic planning, multimodal learning, and 3D scene understanding.",
   },
-  icons: { icon: "/favicon.svg", shortcut: "/favicon.svg" },
 };
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
